@@ -7,7 +7,7 @@ The purpose of this project was to improve the readability of an HTML file, by o
 The project consisted of replacing the generic tags with descriptive tags such as <footer>, <main>, <section>, <figure>, <figcaption>. Additionally, the file is now semantically organized by dividing the code into logical chunks.
 Completing this project improved my understanding of the importance of semantics and organizing an HTML file with a logical order in mind.
 
-##Installation 
+## Installation 
 
 N/A
 
