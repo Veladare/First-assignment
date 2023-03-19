@@ -13,7 +13,7 @@ N/A
 
 ## Usage
 
-To inspect the work, click on the link and then right click anywhere on the webpage. Click inspect and a new tab will open which shows the HTML structure of the webpage for individuals to review. 
+To inspect the work on the webpage, right click on the side of the webpage. A window will open, then click inspect and a new tab will open which shows the HTML structure of the webpage for individuals to review. 
 
 ## Credits
 
