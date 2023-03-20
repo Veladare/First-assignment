@@ -46,10 +46,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
 .hero {
     height: 800px;
     width: 100%;
@@ -188,6 +184,10 @@ p {
     font-size: 36px;
 }
 
+figcaption {
+    font-size: 16px;
+}
+
 .footer {
     padding: 30px;
     clear: both;
@@ -195,10 +195,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
-    font-size: 20px;
-}
-
-.h4 {
+.footer h4 {
     font-size: 20px;
 }
