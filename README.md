@@ -3,7 +3,7 @@
 
 ## Description
 
-The purpose of this project was to improve the readability of an HTML file, by organizing and adding semantic tags to it. By doing so, Coders will have a better understanding of how the webpage is structured by simply looking at the HTML file.
+The purpose of this project was to improve the readability of an HTML file, by organizing and adding semantic tags to it. By doing so, coders will have a better understanding of how the webpage is structured by simply looking at the HTML file.
 The project consisted of replacing the generic tags with descriptive tags such as footer, main, section, figure, figcaption. Additionally, the file is now semantically organized by dividing the code into logical chunks.
 Completing this project improved my understanding of the importance of semantics and organizing an HTML file.
 
