@@ -45,7 +45,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* removed p */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,9 +61,7 @@ a {
     margin-left: 20px;
 }
 
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
+.marketing-strategy {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -81,17 +79,13 @@ a {
     float: right;
     margin-right: 25px;
 }
-
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
+/* Consolidated classes into marketing-strategy and removed redundancy */
+.marketing-strategy h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
+.marketing-strategy img {
     max-height: 200px;
 }
 
@@ -105,7 +99,7 @@ a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Consolidated classes into benefit-service and removed redundancy */
 .benefit-services  {
     margin-bottom: 32px;
     color: #ffffff;
