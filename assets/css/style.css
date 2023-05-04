@@ -1,4 +1,4 @@
-/* the box-sizing: border-box calculates the width and height of an element maintaining the orginal size when new values are added. For an example it will maintain the same width and height values even if padding or margin are added.
+/* the box-sizing: border-box calculates the width and height of an element maintaining the orginal size when new values are added. For an example the element will maintain the same width and height values even if padding or margin are added as opposed to shrinking the element to make room for padding and margins.
 /*padding adds space between the element and its borders */
 /*margin adds space between border and other elements within the containing element. */
 * {
@@ -21,7 +21,7 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-/*display inline-block gives an element both inline and block properities
+/*display inline-block give an element its own dimension, while still having inline elements that can be next to other display block elements. /*
 /*font-size resizes the size of the text content*/
 .header h1 {
     display: inline-block;
@@ -47,7 +47,7 @@ body {
 .header nav ul {
     list-style-type: none;
 }
-/*display inline-block give an element both inline and block properities.
+/*display inline-block give an element its own dimension, while still having inline elements that can be next to other display block elements. /*
 /* margin adds space between border and other elements within the containing element. margin-left adds space on the left side of an element between adjacent elements and the border of the container  */
 .header nav ul li {
     display: inline-block;

@@ -14,7 +14,7 @@ N/A
 
 ## Usage
 
-To inspect the work and comments on the webpage, right click on the side of the webpage. A window will open, then click inspect and a new tab will open which shows the HTML structure of the webpage for individuals to review. 
+To inspect the work and comments from the webpage, open it and right click on it. A window will open, then click inspect and a new tab will open which shows the HTML structure of the webpage for individuals to review. CSS can be accessed by click on the sources tab within the inspect menu. Alternatively, HTML and css can be inspect via Visual studio code or similiar programs.
 
 ## Credits
 
