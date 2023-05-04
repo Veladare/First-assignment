@@ -1,3 +1,4 @@
+/* the box-sizing: border-box calculates the width and height of an element maintaining the orginal size when new values are added. For an example it will maintain the same width and height values even if padding or margin are added.
 /*padding adds space between the element and its borders */
 /*margin adds space between border and other elements within the containing element. */
 * {
@@ -13,13 +14,14 @@ body {
 /*padding adds space between the element and its borders */
 /*font-family refers to the specific text fonts that will display on the webpage */
 /*background-color sets the background color of an element */
-/*color adjust the color of the text */
+/*color adjusts the color of the text */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
+/*display inline-block gives an element both inline and block properities
 /*font-size resizes the size of the text content*/
 .header h1 {
     display: inline-block;
@@ -30,7 +32,8 @@ body {
     color: #d9dcd6;
 }
 /*padding adds space between the element and its borders. Padding top add space between the element and its border on the top side. */
-/*margin adds space between border and other elements within the containing element. margin-bottom adds space on the right side of an element between adjacent elements and the border of the container  */
+/*margin adds space between border and other elements within the containing element. margin-right adds space on the right side of an element between adjacent elements and the border of the container  */
+/*float right assign a piece of content to the right of a container.
 /*font-family refers to the specific text fonts that will display on the webpage */
 /*font-size resizes the size of the text content*/
 .header nav {
@@ -40,11 +43,12 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* list-style-type none removes the bullets points usually displayed in unorganized list (ul) */
 .header nav ul {
     list-style-type: none;
 }
-/* margin adds space between border and other elements within the containing element. margin-bottom adds space on the left side of an element between adjacent elements and the border of the container  */
+/*display inline-block give an element both inline and block properities.
+/* margin adds space between border and other elements within the containing element. margin-left adds space on the left side of an element between adjacent elements and the border of the container  */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -70,15 +74,18 @@ a {
     background-position: center;
 }
 /* width adjusts the size of a thing horizontally */
+/*display inline-block gives an element both inline, aligning with content horizontally, and block,aligning with content vertically, properities.*/
+/*margin adds space between border and other elements within the containing element. margin-left adds space on the left side of an element between adjacent elements and the border of the container  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 /*margin adds space between border and other elements within the containing element. margin-bottom adds space on the bottom of an element between adjacent elements and the border of the container  */
+/*padding adds space between the element and its borders */
 /*height adjusts the size of a thing vertically */
 /*background-color sets the background color of an element */
-/*color adjust the color of the text */
+/*color adjusts the color of the text */
 .marketing-strategy {
     margin-bottom: 20px;
     padding: 50px;
@@ -87,13 +94,14 @@ a {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-/*margin adds space between border and other elements within the containing element. margin-bottom adds space on the right side of an element between adjacent elements and the border of the container  */
+/*float left assigns a piece of content to the left side of a container.
+/*margin adds space between border and other elements within the containing element. margin-right adds space on the right side of an element between adjacent elements and the border of the container  */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-/*margin adds space between border and other elements within the containing element. margin-bottom adds space on the right side of an element between adjacent elements and the border of the container  */
+/*float right assigns a piece of content to the right side of a container.
+/*margin adds space between border and other elements within the containing element. margin-right adds space on the right side of an element between adjacent elements and the border of the container  */
 .float-right {
     float: right;
     margin-right: 25px;
@@ -104,14 +112,14 @@ a {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/*max-width limts size of the content vertically */
+/*max-width limts the size of the content vertically */
 .marketing-strategy img {
     max-height: 200px;
 }
 /*margin adds space between border and other elements within the containing element. margin-bottom adds space on the right side of an element between adjacent elements and the border of the container  */
 /*padding adds space between the contents within an element and its borders */
-/*width adjusts the size of a thing horizontally */
-/*height adjusts the size of a thing vertically */
+/*width adjusts the size content horizontally */
+/*height adjusts the size of content vertically */
 /*font-family refers to the specific text fonts that will display on the webpage */
 /*background-color sets the background color of an element */
 .benefits {
@@ -125,7 +133,7 @@ a {
     background-color: #2589bd;
 }
 /*margin adds space between border and other elements within the containing element. margin-bottom adds space on the bottom of an element between adjacent elements and the border of the container  */
-/*color adjust the color of the text */
+/*color adjusts the color of the text */
 .benefit-services  {
     margin-bottom: 32px;
     color: #ffffff;
@@ -145,8 +153,9 @@ a {
     margin: 10px auto;
     max-width: 150px;
 }
-/*font-family refers to the specific text fonts that will display on the webpage */
 /*padding adds space between the element and its borders */
+/*font-family refers to the specific text fonts that will display on the webpage */
+/*text-algin center centers text content within a given element */
 .footer {
     padding: 30px;
     clear: both;

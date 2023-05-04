@@ -23,3 +23,7 @@ N/A
 ## License
 
 Please refer to the LICENSE in the repo.
+
+## Screenshot
+
+(https://user-images.githubusercontent.com/126302466/236098048-ba36ccee-b6d9-4e77-b256-a4d869b22ca2.png)
